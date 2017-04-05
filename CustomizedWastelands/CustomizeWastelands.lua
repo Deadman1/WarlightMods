@@ -1,7 +1,7 @@
 
 function CustomizeWastelands(game, standing)
     local numWastelands = game.Settings.NumberOfWastelands;
-    local numUniqueWastelands = Mod.Settings.NumberOfUniqueWastelandValues;
+    local numUniqueWastelands = 2;
     local i = 0
 
 	for _, territory in pairs(standing.Territories) do
