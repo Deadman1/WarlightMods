@@ -6,7 +6,7 @@ function CustomizeWastelands(game, standing)
 
 	for _, territory in pairs(standing.Territories) do
         local numArmies = territory.NumArmies.NumArmies;
-        if (territory.OwnerPlayerID == PlayerID.Neutral and numArmies == game.Settings.WastelandSize) then  
+        if (territory.OwnerPlayerID == WL.PlayerID.Neutral and numArmies == game.Settings.WastelandSize) then  
             i = i + 1   
 
             --[[Set wastelands to appropriate value based on provided weights. If the weights do not add up 
